@@ -1,0 +1,29 @@
+[
+    {
+        "id_": "b2cdc934ff6a4a1d677dddfa1758d523633d23e0",
+        "embedding": null,
+        "metadata": {
+            "file_path": "docs\\test.py",
+            "file_name": "docs\\test.py",
+            "url": "https://api.github.com/nhwzaan\\test-repository\\blob/dev\\docs\\test.py"
+        },
+        "excluded_embed_metadata_keys": [],
+        "excluded_llm_metadata_keys": [],
+        "relationships": {},
+        "metadata_template": "{key}: {value}",
+        "metadata_separator": "\n",
+        "text_resource": {
+            "embeddings": null,
+            "text": "print(\"Hello, World!\")\na = 5\nb = 10\nc = a + b\nprint(\"The sum of\", a, \"and\", b, \"is\", c)\n# This is a simple Python script to demonstrate basic arithmetic operations.",
+            "path": null,
+            "url": null,
+            "mimetype": null
+        },
+        "image_resource": null,
+        "audio_resource": null,
+        "video_resource": null,
+        "text_template": "{metadata_str}\n\n{content}",
+        "class_name": "Document",
+        "text": "print(\"Hello, World!\")\na = 5\nb = 10\nc = a + b\nprint(\"The sum of\", a, \"and\", b, \"is\", c)\n# This is a simple Python script to demonstrate basic arithmetic operations."
+    }
+]

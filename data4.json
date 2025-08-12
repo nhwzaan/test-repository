@@ -1,0 +1,245 @@
+[
+    {
+        "id_": "b4a373885d641555e440e5b390bd3aa24a99bffe",
+        "embedding": null,
+        "metadata": {
+            "file_path": ".gitignore",
+            "file_name": ".gitignore",
+            "url": "https://api.github.com/nhwzaan\\test-repository\\blob/dev\\.gitignore"
+        },
+        "excluded_embed_metadata_keys": [],
+        "excluded_llm_metadata_keys": [],
+        "relationships": {},
+        "metadata_template": "{key}: {value}",
+        "metadata_separator": "\n",
+        "text_resource": {
+            "embeddings": null,
+            "text": ".venv*\n.env",
+            "path": null,
+            "url": null,
+            "mimetype": null
+        },
+        "image_resource": null,
+        "audio_resource": null,
+        "video_resource": null,
+        "text_template": "{metadata_str}\n\n{content}",
+        "class_name": "Document",
+        "text": ".venv*\n.env"
+    },
+    {
+        "id_": "15c962433e632147b96d4a48ccc09990fec30ade",
+        "embedding": null,
+        "metadata": {
+            "file_path": "README.md",
+            "file_name": "README.md",
+            "url": "https://api.github.com/nhwzaan\\test-repository\\blob/dev\\README.md"
+        },
+        "excluded_embed_metadata_keys": [],
+        "excluded_llm_metadata_keys": [],
+        "relationships": {},
+        "metadata_template": "{key}: {value}",
+        "metadata_separator": "\n",
+        "text_resource": {
+            "embeddings": null,
+            "text": "# test-repository",
+            "path": null,
+            "url": null,
+            "mimetype": null
+        },
+        "image_resource": null,
+        "audio_resource": null,
+        "video_resource": null,
+        "text_template": "{metadata_str}\n\n{content}",
+        "class_name": "Document",
+        "text": "# test-repository"
+    },
+    {
+        "id_": "4d72be5202168eedca3fd5f93ed5e180e0c5015a",
+        "embedding": null,
+        "metadata": {
+            "file_path": "data.json",
+            "file_name": "data.json",
+            "url": "https://api.github.com/nhwzaan\\test-repository\\blob/dev\\data.json"
+        },
+        "excluded_embed_metadata_keys": [],
+        "excluded_llm_metadata_keys": [],
+        "relationships": {},
+        "metadata_template": "{key}: {value}",
+        "metadata_separator": "\n",
+        "text_resource": {
+            "embeddings": null,
+            "text": "[\n    {\n        \"id_\": \"15c962433e632147b96d4a48ccc09990fec30ade\",\n        \"embedding\": null,\n        \"metadata\": {\n            \"file_path\": \"README.md\",\n            \"file_name\": \"README.md\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\README.md\"\n        },\n        \"excluded_embed_metadata_keys\": [],\n        \"excluded_llm_metadata_keys\": [],\n        \"relationships\": {},\n        \"metadata_template\": \"{key}: {value}\",\n        \"metadata_separator\": \"\\n\",\n        \"text_resource\": {\n            \"embeddings\": null,\n            \"text\": \"# test-repository\",\n            \"path\": null,\n            \"url\": null,\n            \"mimetype\": null\n        },\n        \"image_resource\": null,\n        \"audio_resource\": null,\n        \"video_resource\": null,\n        \"text_template\": \"{metadata_str}\\n\\n{content}\",\n        \"class_name\": \"Document\",\n        \"text\": \"# test-repository\"\n    },\n    {\n        \"id_\": \"b2cdc934ff6a4a1d677dddfa1758d523633d23e0\",\n        \"embedding\": null,\n        \"metadata\": {\n            \"file_path\": \"test.py\",\n            \"file_name\": \"test.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test.py\"\n        },\n        \"excluded_embed_metadata_keys\": [],\n        \"excluded_llm_metadata_keys\": [],\n        \"relationships\": {},\n        \"metadata_template\": \"{key}: {value}\",\n        \"metadata_separator\": \"\\n\",\n        \"text_resource\": {\n            \"embeddings\": null,\n            \"text\": \"print(\\\"Hello, World!\\\")\\na = 5\\nb = 10\\nc = a + b\\nprint(\\\"The sum of\\\", a, \\\"and\\\", b, \\\"is\\\", c)\\n# This is a simple Python script to demonstrate basic arithmetic operations.\",\n            \"path\": null,\n            \"url\": null,\n            \"mimetype\": null\n        },\n        \"image_resource\": null,\n        \"audio_resource\": null,\n        \"video_resource\": null,\n        \"text_template\": \"{metadata_str}\\n\\n{content}\",\n        \"class_name\": \"Document\",\n        \"text\": \"print(\\\"Hello, World!\\\")\\na = 5\\nb = 10\\nc = a + b\\nprint(\\\"The sum of\\\", a, \\\"and\\\", b, \\\"is\\\", c)\\n# This is a simple Python script to demonstrate basic arithmetic operations.\"\n    },\n    {\n        \"id_\": \"8d2c61b1d635fee72c4ce11276235008e44169a7\",\n        \"embedding\": null,\n        \"metadata\": {\n            \"file_path\": \"test2.py\",\n            \"file_name\": \"test2.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test2.py\"\n        },\n        \"excluded_embed_metadata_keys\": [],\n        \"excluded_llm_metadata_keys\": [],\n        \"relationships\": {},\n        \"metadata_template\": \"{key}: {value}\",\n        \"metadata_separator\": \"\\n\",\n        \"text_resource\": {\n            \"embeddings\": null,\n            \"text\": \"print(\\\"Wish it will work!\\\")\\nprint(\\\"Wish it will work!\\\")\",\n            \"path\": null,\n            \"url\": null,\n            \"mimetype\": null\n        },\n        \"image_resource\": null,\n        \"audio_resource\": null,\n        \"video_resource\": null,\n        \"text_template\": \"{metadata_str}\\n\\n{content}\",\n        \"class_name\": \"Document\",\n        \"text\": \"print(\\\"Wish it will work!\\\")\\nprint(\\\"Wish it will work!\\\")\"\n    },\n    {\n        \"id_\": \"702d670f5e3c2295ea40cf41fe4579b58247a972\",\n        \"embedding\": null,\n        \"metadata\": {\n            \"file_path\": \"test3.py\",\n            \"file_name\": \"test3.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test3.py\"\n        },\n        \"excluded_embed_metadata_keys\": [],\n        \"excluded_llm_metadata_keys\": [],\n        \"relationships\": {},\n        \"metadata_template\": \"{key}: {value}\",\n        \"metadata_separator\": \"\\n\",\n        \"text_resource\": {\n            \"embeddings\": null,\n            \"text\": \"print(123)\",\n            \"path\": null,\n            \"url\": null,\n            \"mimetype\": null\n        },\n        \"image_resource\": null,\n        \"audio_resource\": null,\n        \"video_resource\": null,\n        \"text_template\": \"{metadata_str}\\n\\n{content}\",\n        \"class_name\": \"Document\",\n        \"text\": \"print(123)\"\n    }\n]",
+            "path": null,
+            "url": null,
+            "mimetype": null
+        },
+        "image_resource": null,
+        "audio_resource": null,
+        "video_resource": null,
+        "text_template": "{metadata_str}\n\n{content}",
+        "class_name": "Document",
+        "text": "[\n    {\n        \"id_\": \"15c962433e632147b96d4a48ccc09990fec30ade\",\n        \"embedding\": null,\n        \"metadata\": {\n            \"file_path\": \"README.md\",\n            \"file_name\": \"README.md\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\README.md\"\n        },\n        \"excluded_embed_metadata_keys\": [],\n        \"excluded_llm_metadata_keys\": [],\n        \"relationships\": {},\n        \"metadata_template\": \"{key}: {value}\",\n        \"metadata_separator\": \"\\n\",\n        \"text_resource\": {\n            \"embeddings\": null,\n            \"text\": \"# test-repository\",\n            \"path\": null,\n            \"url\": null,\n            \"mimetype\": null\n        },\n        \"image_resource\": null,\n        \"audio_resource\": null,\n        \"video_resource\": null,\n        \"text_template\": \"{metadata_str}\\n\\n{content}\",\n        \"class_name\": \"Document\",\n        \"text\": \"# test-repository\"\n    },\n    {\n        \"id_\": \"b2cdc934ff6a4a1d677dddfa1758d523633d23e0\",\n        \"embedding\": null,\n        \"metadata\": {\n            \"file_path\": \"test.py\",\n            \"file_name\": \"test.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test.py\"\n        },\n        \"excluded_embed_metadata_keys\": [],\n        \"excluded_llm_metadata_keys\": [],\n        \"relationships\": {},\n        \"metadata_template\": \"{key}: {value}\",\n        \"metadata_separator\": \"\\n\",\n        \"text_resource\": {\n            \"embeddings\": null,\n            \"text\": \"print(\\\"Hello, World!\\\")\\na = 5\\nb = 10\\nc = a + b\\nprint(\\\"The sum of\\\", a, \\\"and\\\", b, \\\"is\\\", c)\\n# This is a simple Python script to demonstrate basic arithmetic operations.\",\n            \"path\": null,\n            \"url\": null,\n            \"mimetype\": null\n        },\n        \"image_resource\": null,\n        \"audio_resource\": null,\n        \"video_resource\": null,\n        \"text_template\": \"{metadata_str}\\n\\n{content}\",\n        \"class_name\": \"Document\",\n        \"text\": \"print(\\\"Hello, World!\\\")\\na = 5\\nb = 10\\nc = a + b\\nprint(\\\"The sum of\\\", a, \\\"and\\\", b, \\\"is\\\", c)\\n# This is a simple Python script to demonstrate basic arithmetic operations.\"\n    },\n    {\n        \"id_\": \"8d2c61b1d635fee72c4ce11276235008e44169a7\",\n        \"embedding\": null,\n        \"metadata\": {\n            \"file_path\": \"test2.py\",\n            \"file_name\": \"test2.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test2.py\"\n        },\n        \"excluded_embed_metadata_keys\": [],\n        \"excluded_llm_metadata_keys\": [],\n        \"relationships\": {},\n        \"metadata_template\": \"{key}: {value}\",\n        \"metadata_separator\": \"\\n\",\n        \"text_resource\": {\n            \"embeddings\": null,\n            \"text\": \"print(\\\"Wish it will work!\\\")\\nprint(\\\"Wish it will work!\\\")\",\n            \"path\": null,\n            \"url\": null,\n            \"mimetype\": null\n        },\n        \"image_resource\": null,\n        \"audio_resource\": null,\n        \"video_resource\": null,\n        \"text_template\": \"{metadata_str}\\n\\n{content}\",\n        \"class_name\": \"Document\",\n        \"text\": \"print(\\\"Wish it will work!\\\")\\nprint(\\\"Wish it will work!\\\")\"\n    },\n    {\n        \"id_\": \"702d670f5e3c2295ea40cf41fe4579b58247a972\",\n        \"embedding\": null,\n        \"metadata\": {\n            \"file_path\": \"test3.py\",\n            \"file_name\": \"test3.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test3.py\"\n        },\n        \"excluded_embed_metadata_keys\": [],\n        \"excluded_llm_metadata_keys\": [],\n        \"relationships\": {},\n        \"metadata_template\": \"{key}: {value}\",\n        \"metadata_separator\": \"\\n\",\n        \"text_resource\": {\n            \"embeddings\": null,\n            \"text\": \"print(123)\",\n            \"path\": null,\n            \"url\": null,\n            \"mimetype\": null\n        },\n        \"image_resource\": null,\n        \"audio_resource\": null,\n        \"video_resource\": null,\n        \"text_template\": \"{metadata_str}\\n\\n{content}\",\n        \"class_name\": \"Document\",\n        \"text\": \"print(123)\"\n    }\n]"
+    },
+    {
+        "id_": "4d72be5202168eedca3fd5f93ed5e180e0c5015a",
+        "embedding": null,
+        "metadata": {
+            "file_path": "data2.json",
+            "file_name": "data2.json",
+            "url": "https://api.github.com/nhwzaan\\test-repository\\blob/dev\\data2.json"
+        },
+        "excluded_embed_metadata_keys": [],
+        "excluded_llm_metadata_keys": [],
+        "relationships": {},
+        "metadata_template": "{key}: {value}",
+        "metadata_separator": "\n",
+        "text_resource": {
+            "embeddings": null,
+            "text": "[\n    {\n        \"id_\": \"15c962433e632147b96d4a48ccc09990fec30ade\",\n        \"embedding\": null,\n        \"metadata\": {\n            \"file_path\": \"README.md\",\n            \"file_name\": \"README.md\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\README.md\"\n        },\n        \"excluded_embed_metadata_keys\": [],\n        \"excluded_llm_metadata_keys\": [],\n        \"relationships\": {},\n        \"metadata_template\": \"{key}: {value}\",\n        \"metadata_separator\": \"\\n\",\n        \"text_resource\": {\n            \"embeddings\": null,\n            \"text\": \"# test-repository\",\n            \"path\": null,\n            \"url\": null,\n            \"mimetype\": null\n        },\n        \"image_resource\": null,\n        \"audio_resource\": null,\n        \"video_resource\": null,\n        \"text_template\": \"{metadata_str}\\n\\n{content}\",\n        \"class_name\": \"Document\",\n        \"text\": \"# test-repository\"\n    },\n    {\n        \"id_\": \"b2cdc934ff6a4a1d677dddfa1758d523633d23e0\",\n        \"embedding\": null,\n        \"metadata\": {\n            \"file_path\": \"test.py\",\n            \"file_name\": \"test.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test.py\"\n        },\n        \"excluded_embed_metadata_keys\": [],\n        \"excluded_llm_metadata_keys\": [],\n        \"relationships\": {},\n        \"metadata_template\": \"{key}: {value}\",\n        \"metadata_separator\": \"\\n\",\n        \"text_resource\": {\n            \"embeddings\": null,\n            \"text\": \"print(\\\"Hello, World!\\\")\\na = 5\\nb = 10\\nc = a + b\\nprint(\\\"The sum of\\\", a, \\\"and\\\", b, \\\"is\\\", c)\\n# This is a simple Python script to demonstrate basic arithmetic operations.\",\n            \"path\": null,\n            \"url\": null,\n            \"mimetype\": null\n        },\n        \"image_resource\": null,\n        \"audio_resource\": null,\n        \"video_resource\": null,\n        \"text_template\": \"{metadata_str}\\n\\n{content}\",\n        \"class_name\": \"Document\",\n        \"text\": \"print(\\\"Hello, World!\\\")\\na = 5\\nb = 10\\nc = a + b\\nprint(\\\"The sum of\\\", a, \\\"and\\\", b, \\\"is\\\", c)\\n# This is a simple Python script to demonstrate basic arithmetic operations.\"\n    },\n    {\n        \"id_\": \"8d2c61b1d635fee72c4ce11276235008e44169a7\",\n        \"embedding\": null,\n        \"metadata\": {\n            \"file_path\": \"test2.py\",\n            \"file_name\": \"test2.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test2.py\"\n        },\n        \"excluded_embed_metadata_keys\": [],\n        \"excluded_llm_metadata_keys\": [],\n        \"relationships\": {},\n        \"metadata_template\": \"{key}: {value}\",\n        \"metadata_separator\": \"\\n\",\n        \"text_resource\": {\n            \"embeddings\": null,\n            \"text\": \"print(\\\"Wish it will work!\\\")\\nprint(\\\"Wish it will work!\\\")\",\n            \"path\": null,\n            \"url\": null,\n            \"mimetype\": null\n        },\n        \"image_resource\": null,\n        \"audio_resource\": null,\n        \"video_resource\": null,\n        \"text_template\": \"{metadata_str}\\n\\n{content}\",\n        \"class_name\": \"Document\",\n        \"text\": \"print(\\\"Wish it will work!\\\")\\nprint(\\\"Wish it will work!\\\")\"\n    },\n    {\n        \"id_\": \"702d670f5e3c2295ea40cf41fe4579b58247a972\",\n        \"embedding\": null,\n        \"metadata\": {\n            \"file_path\": \"test3.py\",\n            \"file_name\": \"test3.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test3.py\"\n        },\n        \"excluded_embed_metadata_keys\": [],\n        \"excluded_llm_metadata_keys\": [],\n        \"relationships\": {},\n        \"metadata_template\": \"{key}: {value}\",\n        \"metadata_separator\": \"\\n\",\n        \"text_resource\": {\n            \"embeddings\": null,\n            \"text\": \"print(123)\",\n            \"path\": null,\n            \"url\": null,\n            \"mimetype\": null\n        },\n        \"image_resource\": null,\n        \"audio_resource\": null,\n        \"video_resource\": null,\n        \"text_template\": \"{metadata_str}\\n\\n{content}\",\n        \"class_name\": \"Document\",\n        \"text\": \"print(123)\"\n    }\n]",
+            "path": null,
+            "url": null,
+            "mimetype": null
+        },
+        "image_resource": null,
+        "audio_resource": null,
+        "video_resource": null,
+        "text_template": "{metadata_str}\n\n{content}",
+        "class_name": "Document",
+        "text": "[\n    {\n        \"id_\": \"15c962433e632147b96d4a48ccc09990fec30ade\",\n        \"embedding\": null,\n        \"metadata\": {\n            \"file_path\": \"README.md\",\n            \"file_name\": \"README.md\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\README.md\"\n        },\n        \"excluded_embed_metadata_keys\": [],\n        \"excluded_llm_metadata_keys\": [],\n        \"relationships\": {},\n        \"metadata_template\": \"{key}: {value}\",\n        \"metadata_separator\": \"\\n\",\n        \"text_resource\": {\n            \"embeddings\": null,\n            \"text\": \"# test-repository\",\n            \"path\": null,\n            \"url\": null,\n            \"mimetype\": null\n        },\n        \"image_resource\": null,\n        \"audio_resource\": null,\n        \"video_resource\": null,\n        \"text_template\": \"{metadata_str}\\n\\n{content}\",\n        \"class_name\": \"Document\",\n        \"text\": \"# test-repository\"\n    },\n    {\n        \"id_\": \"b2cdc934ff6a4a1d677dddfa1758d523633d23e0\",\n        \"embedding\": null,\n        \"metadata\": {\n            \"file_path\": \"test.py\",\n            \"file_name\": \"test.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test.py\"\n        },\n        \"excluded_embed_metadata_keys\": [],\n        \"excluded_llm_metadata_keys\": [],\n        \"relationships\": {},\n        \"metadata_template\": \"{key}: {value}\",\n        \"metadata_separator\": \"\\n\",\n        \"text_resource\": {\n            \"embeddings\": null,\n            \"text\": \"print(\\\"Hello, World!\\\")\\na = 5\\nb = 10\\nc = a + b\\nprint(\\\"The sum of\\\", a, \\\"and\\\", b, \\\"is\\\", c)\\n# This is a simple Python script to demonstrate basic arithmetic operations.\",\n            \"path\": null,\n            \"url\": null,\n            \"mimetype\": null\n        },\n        \"image_resource\": null,\n        \"audio_resource\": null,\n        \"video_resource\": null,\n        \"text_template\": \"{metadata_str}\\n\\n{content}\",\n        \"class_name\": \"Document\",\n        \"text\": \"print(\\\"Hello, World!\\\")\\na = 5\\nb = 10\\nc = a + b\\nprint(\\\"The sum of\\\", a, \\\"and\\\", b, \\\"is\\\", c)\\n# This is a simple Python script to demonstrate basic arithmetic operations.\"\n    },\n    {\n        \"id_\": \"8d2c61b1d635fee72c4ce11276235008e44169a7\",\n        \"embedding\": null,\n        \"metadata\": {\n            \"file_path\": \"test2.py\",\n            \"file_name\": \"test2.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test2.py\"\n        },\n        \"excluded_embed_metadata_keys\": [],\n        \"excluded_llm_metadata_keys\": [],\n        \"relationships\": {},\n        \"metadata_template\": \"{key}: {value}\",\n        \"metadata_separator\": \"\\n\",\n        \"text_resource\": {\n            \"embeddings\": null,\n            \"text\": \"print(\\\"Wish it will work!\\\")\\nprint(\\\"Wish it will work!\\\")\",\n            \"path\": null,\n            \"url\": null,\n            \"mimetype\": null\n        },\n        \"image_resource\": null,\n        \"audio_resource\": null,\n        \"video_resource\": null,\n        \"text_template\": \"{metadata_str}\\n\\n{content}\",\n        \"class_name\": \"Document\",\n        \"text\": \"print(\\\"Wish it will work!\\\")\\nprint(\\\"Wish it will work!\\\")\"\n    },\n    {\n        \"id_\": \"702d670f5e3c2295ea40cf41fe4579b58247a972\",\n        \"embedding\": null,\n        \"metadata\": {\n            \"file_path\": \"test3.py\",\n            \"file_name\": \"test3.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test3.py\"\n        },\n        \"excluded_embed_metadata_keys\": [],\n        \"excluded_llm_metadata_keys\": [],\n        \"relationships\": {},\n        \"metadata_template\": \"{key}: {value}\",\n        \"metadata_separator\": \"\\n\",\n        \"text_resource\": {\n            \"embeddings\": null,\n            \"text\": \"print(123)\",\n            \"path\": null,\n            \"url\": null,\n            \"mimetype\": null\n        },\n        \"image_resource\": null,\n        \"audio_resource\": null,\n        \"video_resource\": null,\n        \"text_template\": \"{metadata_str}\\n\\n{content}\",\n        \"class_name\": \"Document\",\n        \"text\": \"print(123)\"\n    }\n]"
+    },
+    {
+        "id_": "b2cdc934ff6a4a1d677dddfa1758d523633d23e0",
+        "embedding": null,
+        "metadata": {
+            "file_path": "docs\\test.py",
+            "file_name": "docs\\test.py",
+            "url": "https://api.github.com/nhwzaan\\test-repository\\blob/dev\\docs\\test.py"
+        },
+        "excluded_embed_metadata_keys": [],
+        "excluded_llm_metadata_keys": [],
+        "relationships": {},
+        "metadata_template": "{key}: {value}",
+        "metadata_separator": "\n",
+        "text_resource": {
+            "embeddings": null,
+            "text": "print(\"Hello, World!\")\na = 5\nb = 10\nc = a + b\nprint(\"The sum of\", a, \"and\", b, \"is\", c)\n# This is a simple Python script to demonstrate basic arithmetic operations.",
+            "path": null,
+            "url": null,
+            "mimetype": null
+        },
+        "image_resource": null,
+        "audio_resource": null,
+        "video_resource": null,
+        "text_template": "{metadata_str}\n\n{content}",
+        "class_name": "Document",
+        "text": "print(\"Hello, World!\")\na = 5\nb = 10\nc = a + b\nprint(\"The sum of\", a, \"and\", b, \"is\", c)\n# This is a simple Python script to demonstrate basic arithmetic operations."
+    },
+    {
+        "id_": "91c0d39e937b16e4ce21c3afa0804088171f0b60",
+        "embedding": null,
+        "metadata": {
+            "file_path": "githubcodereader.py",
+            "file_name": "githubcodereader.py",
+            "url": "https://api.github.com/nhwzaan\\test-repository\\blob/dev\\githubcodereader.py"
+        },
+        "excluded_embed_metadata_keys": [],
+        "excluded_llm_metadata_keys": [],
+        "relationships": {},
+        "metadata_template": "{key}: {value}",
+        "metadata_separator": "\n",
+        "text_resource": {
+            "embeddings": null,
+            "text": "import nest_asyncio\nnest_asyncio.apply()\n\nfrom llama_index.core import VectorStoreIndex\nfrom llama_index.readers.github import GithubRepositoryReader, GithubClient\nfrom IPython.display import Markdown, display\nimport os\nimport json\nfrom dotenv import load_dotenv\n\nload_dotenv()\n\ngithub_token = os.environ.get(\"GITHUB_TOKEN\")\nif not github_token:\n    raise EnvironmentError(\"GITHUB_TOKEN environment variable not set. Please set it in your .env file or environment.\")\n\nowner = \"nhwzaan\"\nrepo = \"test-repository\"\nbranch = \"main\"\n\ngithub_client = GithubClient(github_token=github_token, verbose=True)\n\ndocuments = GithubRepositoryReader(\n    github_client=github_client,\n    owner=owner,\n    repo=repo,\n    use_parser=False,\n    verbose=False,\n    # filter_directories=(\n    #     [\"docs\"],\n    #     GithubRepositoryReader.FilterType.INCLUDE,\n    # ),\n    filter_file_extensions=(\n        [\n            \".png\",\n            \".jpg\",\n            \".jpeg\",\n            \".gif\",\n            \".svg\",\n            \".ico\",\n            \"json\",\n            \".ipynb\",\n        ],\n        GithubRepositoryReader.FilterType.EXCLUDE,\n    ),\n).load_data(branch=branch)\n\n\nprint(documents)\n\ndocuments_to_save = [doc.to_dict() for doc in documents]\n\nwith open('data2.json', 'w', encoding='utf-8') as outfile:\n    json.dump(documents_to_save, outfile, ensure_ascii=False, indent=4)",
+            "path": null,
+            "url": null,
+            "mimetype": null
+        },
+        "image_resource": null,
+        "audio_resource": null,
+        "video_resource": null,
+        "text_template": "{metadata_str}\n\n{content}",
+        "class_name": "Document",
+        "text": "import nest_asyncio\nnest_asyncio.apply()\n\nfrom llama_index.core import VectorStoreIndex\nfrom llama_index.readers.github import GithubRepositoryReader, GithubClient\nfrom IPython.display import Markdown, display\nimport os\nimport json\nfrom dotenv import load_dotenv\n\nload_dotenv()\n\ngithub_token = os.environ.get(\"GITHUB_TOKEN\")\nif not github_token:\n    raise EnvironmentError(\"GITHUB_TOKEN environment variable not set. Please set it in your .env file or environment.\")\n\nowner = \"nhwzaan\"\nrepo = \"test-repository\"\nbranch = \"main\"\n\ngithub_client = GithubClient(github_token=github_token, verbose=True)\n\ndocuments = GithubRepositoryReader(\n    github_client=github_client,\n    owner=owner,\n    repo=repo,\n    use_parser=False,\n    verbose=False,\n    # filter_directories=(\n    #     [\"docs\"],\n    #     GithubRepositoryReader.FilterType.INCLUDE,\n    # ),\n    filter_file_extensions=(\n        [\n            \".png\",\n            \".jpg\",\n            \".jpeg\",\n            \".gif\",\n            \".svg\",\n            \".ico\",\n            \"json\",\n            \".ipynb\",\n        ],\n        GithubRepositoryReader.FilterType.EXCLUDE,\n    ),\n).load_data(branch=branch)\n\n\nprint(documents)\n\ndocuments_to_save = [doc.to_dict() for doc in documents]\n\nwith open('data2.json', 'w', encoding='utf-8') as outfile:\n    json.dump(documents_to_save, outfile, ensure_ascii=False, indent=4)"
+    },
+    {
+        "id_": "1f77a7307c9da95bb0854179a9c8dcdfb94e439d",
+        "embedding": null,
+        "metadata": {
+            "file_path": "test.jsonl",
+            "file_name": "test.jsonl",
+            "url": "https://api.github.com/nhwzaan\\test-repository\\blob/dev\\test.jsonl"
+        },
+        "excluded_embed_metadata_keys": [],
+        "excluded_llm_metadata_keys": [],
+        "relationships": {},
+        "metadata_template": "{key}: {value}",
+        "metadata_separator": "\n",
+        "text_resource": {
+            "embeddings": null,
+            "text": "documents = [\n    {\n        \"id\": \"15c962433e632147b96d4a48ccc09990fec30ade\",\n        \"metadata\": {\n            \"file_path\": \"README.md\",\n            \"file_name\": \"README.md\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\README.md\"\n        },\n        \"text\": \"# test-repository\"\n    },\n    {\n        \"id\": \"b2cdc934ff6a4a1d677dddfa1758d523633d23e0\",\n        \"metadata\": {\n            \"file_path\": \"test.py\",\n            \"file_name\": \"test.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test.py\"\n        },\n        \"text\": (\n            'print(\"Hello, World!\")\\n'\n            'a = 5\\n'\n            'b = 10\\n'\n            'c = a + b\\n'\n            'print(\"The sum of\", a, \"and\", b, \"is\", c)\\n'\n            '# This is a simple Python script to demonstrate basic arithmetic operations.'\n        )\n    },\n    {\n        \"id\": \"8d2c61b1d635fee72c4ce11276235008e44169a7\",\n        \"metadata\": {\n            \"file_path\": \"test2.py\",\n            \"file_name\": \"test2.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test2.py\"\n        },\n        \"text\": (\n            'print(\"Wish it will work!\")\\n'\n            'print(\"Wish it will work!\")'\n        )\n    },\n    {\n        \"id\": \"702d670f5e3c2295ea40cf41fe4579b58247a972\",\n        \"metadata\": {\n            \"file_path\": \"test3.py\",\n            \"file_name\": \"test3.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test3.py\"\n        },\n        \"text\": 'print(123)'\n    }\n]",
+            "path": null,
+            "url": null,
+            "mimetype": null
+        },
+        "image_resource": null,
+        "audio_resource": null,
+        "video_resource": null,
+        "text_template": "{metadata_str}\n\n{content}",
+        "class_name": "Document",
+        "text": "documents = [\n    {\n        \"id\": \"15c962433e632147b96d4a48ccc09990fec30ade\",\n        \"metadata\": {\n            \"file_path\": \"README.md\",\n            \"file_name\": \"README.md\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\README.md\"\n        },\n        \"text\": \"# test-repository\"\n    },\n    {\n        \"id\": \"b2cdc934ff6a4a1d677dddfa1758d523633d23e0\",\n        \"metadata\": {\n            \"file_path\": \"test.py\",\n            \"file_name\": \"test.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test.py\"\n        },\n        \"text\": (\n            'print(\"Hello, World!\")\\n'\n            'a = 5\\n'\n            'b = 10\\n'\n            'c = a + b\\n'\n            'print(\"The sum of\", a, \"and\", b, \"is\", c)\\n'\n            '# This is a simple Python script to demonstrate basic arithmetic operations.'\n        )\n    },\n    {\n        \"id\": \"8d2c61b1d635fee72c4ce11276235008e44169a7\",\n        \"metadata\": {\n            \"file_path\": \"test2.py\",\n            \"file_name\": \"test2.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test2.py\"\n        },\n        \"text\": (\n            'print(\"Wish it will work!\")\\n'\n            'print(\"Wish it will work!\")'\n        )\n    },\n    {\n        \"id\": \"702d670f5e3c2295ea40cf41fe4579b58247a972\",\n        \"metadata\": {\n            \"file_path\": \"test3.py\",\n            \"file_name\": \"test3.py\",\n            \"url\": \"https://api.github.com/nhwzaan\\\\test-repository\\\\blob/main\\\\test3.py\"\n        },\n        \"text\": 'print(123)'\n    }\n]"
+    },
+    {
+        "id_": "8d2c61b1d635fee72c4ce11276235008e44169a7",
+        "embedding": null,
+        "metadata": {
+            "file_path": "test2.py",
+            "file_name": "test2.py",
+            "url": "https://api.github.com/nhwzaan\\test-repository\\blob/dev\\test2.py"
+        },
+        "excluded_embed_metadata_keys": [],
+        "excluded_llm_metadata_keys": [],
+        "relationships": {},
+        "metadata_template": "{key}: {value}",
+        "metadata_separator": "\n",
+        "text_resource": {
+            "embeddings": null,
+            "text": "print(\"Wish it will work!\")\nprint(\"Wish it will work!\")",
+            "path": null,
+            "url": null,
+            "mimetype": null
+        },
+        "image_resource": null,
+        "audio_resource": null,
+        "video_resource": null,
+        "text_template": "{metadata_str}\n\n{content}",
+        "class_name": "Document",
+        "text": "print(\"Wish it will work!\")\nprint(\"Wish it will work!\")"
+    },
+    {
+        "id_": "38e30ca388a98925624c5b5aec764c74ebf75f50",
+        "embedding": null,
+        "metadata": {
+            "file_path": "test4.py",
+            "file_name": "test4.py",
+            "url": "https://api.github.com/nhwzaan\\test-repository\\blob/dev\\test4.py"
+        },
+        "excluded_embed_metadata_keys": [],
+        "excluded_llm_metadata_keys": [],
+        "relationships": {},
+        "metadata_template": "{key}: {value}",
+        "metadata_separator": "\n",
+        "text_resource": {
+            "embeddings": null,
+            "text": "# Function to check if a number is even or odd\ndef check_even_odd(number):\n    if number % 2 == 0:\n        return f\"{number} is Even\"\n    else:\n        return f\"{number} is Odd\"\n\n# Loop through a range of numbers\nfor num in range(1, 6):\n    result = check_even_odd(num)\n    print(result)\n\n\n",
+            "path": null,
+            "url": null,
+            "mimetype": null
+        },
+        "image_resource": null,
+        "audio_resource": null,
+        "video_resource": null,
+        "text_template": "{metadata_str}\n\n{content}",
+        "class_name": "Document",
+        "text": "# Function to check if a number is even or odd\ndef check_even_odd(number):\n    if number % 2 == 0:\n        return f\"{number} is Even\"\n    else:\n        return f\"{number} is Odd\"\n\n# Loop through a range of numbers\nfor num in range(1, 6):\n    result = check_even_odd(num)\n    print(result)\n\n\n"
+    }
+]
