@@ -16,7 +16,7 @@ if not github_token:
 
 owner = "nhwzaan"
 repo = "test-repository"
-branch = "main"
+branch = "dev"
 
 github_client = GithubClient(github_token=github_token, verbose=True)
 
@@ -26,10 +26,10 @@ documents = GithubRepositoryReader(
     repo=repo,
     use_parser=False,
     verbose=False,
-    # filter_directories=(
-    #     ["docs"],
-    #     GithubRepositoryReader.FilterType.INCLUDE,
-    # ),
+    filter_directories=(
+        ["docs"],
+        GithubRepositoryReader.FilterType.INCLUDE,
+    ),
     filter_file_extensions=(
         [
             ".png",
@@ -38,7 +38,7 @@ documents = GithubRepositoryReader(
             ".gif",
             ".svg",
             ".ico",
-            "json",
+            ".json",
             ".ipynb",
         ],
         GithubRepositoryReader.FilterType.EXCLUDE,
@@ -46,9 +46,9 @@ documents = GithubRepositoryReader(
 ).load_data(branch=branch)
 
 
-print(documents)
+# print(documents)
 
 documents_to_save = [doc.to_dict() for doc in documents]
 
-with open('data2.json', 'w', encoding='utf-8') as outfile:
+with open('data_docs.json', 'w', encoding='utf-8') as outfile:
     json.dump(documents_to_save, outfile, ensure_ascii=False, indent=4)
